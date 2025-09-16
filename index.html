@@ -386,8 +386,8 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background-color: #ffffff;
+            color: #e2e8f0;
+            background-color: #0f172a;
         }
 
         .container {
@@ -398,31 +398,35 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
 
         /* Header */
         header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
             color: white;
             padding: 2rem 0;
             text-align: center;
+            border-bottom: 1px solid #334155;
         }
 
         .logo {
             font-size: 2.5rem;
             font-weight: bold;
             margin-bottom: 0.5rem;
+            color: #60a5fa;
         }
 
         .tagline {
             font-size: 1.2rem;
             opacity: 0.9;
+            color: #cbd5e1;
         }
 
         /* Navigation */
         nav {
-            background: rgba(102, 126, 234, 0.1);
+            background: rgba(15, 23, 42, 0.95);
             padding: 1rem 0;
             position: sticky;
             top: 0;
             backdrop-filter: blur(10px);
             z-index: 100;
+            border-bottom: 1px solid #334155;
         }
 
         nav ul {
@@ -433,18 +437,20 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
         }
 
         nav a {
-            color: #667eea;
+            color: #60a5fa;
             text-decoration: none;
             font-weight: 500;
             padding: 0.5rem 1rem;
             border-radius: 25px;
             transition: all 0.3s ease;
+            border: 1px solid transparent;
         }
 
         nav a:hover {
-            background: #667eea;
-            color: white;
+            background: #60a5fa;
+            color: #0f172a;
             transform: translateY(-2px);
+            border: 1px solid #60a5fa;
         }
 
         /* Sections */
@@ -456,7 +462,7 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
             text-align: center;
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            color: #2c3e50;
+            color: #f8fafc;
             position: relative;
         }
 
@@ -465,7 +471,7 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
             display: block;
             width: 80px;
             height: 4px;
-            background: linear-gradient(to right, #667eea, #764ba2);
+            background: linear-gradient(to right, #60a5fa, #3b82f6);
             margin: 0.5rem auto;
             border-radius: 2px;
         }
@@ -473,7 +479,7 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
         .section-subtitle {
             text-align: center;
             font-size: 1.2rem;
-            color: #666;
+            color: #94a3b8;
             margin-bottom: 3rem;
             max-width: 800px;
             margin-left: auto;
@@ -482,8 +488,9 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+            background: linear-gradient(rgba(30, 41, 59, 0.3), rgba(51, 65, 85, 0.3));
             text-align: center;
+            border-bottom: 1px solid #334155;
         }
 
         .hero-content {
@@ -494,18 +501,19 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
         .hero h1 {
             font-size: 3rem;
             margin-bottom: 1.5rem;
-            color: #2c3e50;
+            color: #f8fafc;
         }
 
         .hero p {
             font-size: 1.3rem;
-            color: #666;
+            color: #cbd5e1;
             margin-bottom: 2rem;
         }
 
         /* Story Section */
         .story {
-            background: #f8f9fa;
+            background: #1e293b;
+            border-bottom: 1px solid #334155;
         }
 
         .story-content {
@@ -519,6 +527,7 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
             font-size: 1.1rem;
             margin-bottom: 1.5rem;
             text-align: justify;
+            color: #e2e8f0;
         }
 
         .story-stats {
@@ -528,27 +537,29 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
         }
 
         .stat-card {
-            background: white;
+            background: #334155;
             padding: 2rem;
             border-radius: 10px;
             text-align: center;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
             transition: transform 0.3s ease;
+            border: 1px solid #475569;
         }
 
         .stat-card:hover {
             transform: translateY(-5px);
+            background: #475569;
         }
 
         .stat-number {
             font-size: 2.5rem;
             font-weight: bold;
-            color: #667eea;
+            color: #60a5fa;
             display: block;
         }
 
         .stat-label {
-            color: #666;
+            color: #cbd5e1;
             font-size: 0.9rem;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -566,29 +577,36 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
             padding: 2rem;
             border-radius: 15px;
             transition: transform 0.3s ease;
+            border: 1px solid #334155;
         }
 
         .mission {
-            background: linear-gradient(135deg, #667eea20, #764ba220);
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.1), rgba(59, 130, 246, 0.1));
         }
 
         .vision {
-            background: linear-gradient(135deg, #764ba220, #667eea20);
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(96, 165, 250, 0.1));
         }
 
         .mission:hover, .vision:hover {
             transform: scale(1.02);
+            background: rgba(96, 165, 250, 0.15);
         }
 
         .mission h3, .vision h3 {
             font-size: 1.8rem;
             margin-bottom: 1rem;
-            color: #2c3e50;
+            color: #f8fafc;
+        }
+
+        .mission p, .vision p {
+            color: #e2e8f0;
         }
 
         /* Values */
         .values {
-            background: #f8f9fa;
+            background: #1e293b;
+            border-bottom: 1px solid #334155;
         }
 
         .values-grid {
@@ -598,23 +616,26 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
         }
 
         .value-card {
-            background: white;
+            background: #334155;
             padding: 2rem;
             border-radius: 15px;
             text-align: center;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
             transition: all 0.3s ease;
+            border: 1px solid #475569;
         }
 
         .value-card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+            background: #475569;
+            border-color: #60a5fa;
         }
 
         .value-icon {
             width: 60px;
             height: 60px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #60a5fa, #3b82f6);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -627,7 +648,11 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
         .value-card h4 {
             font-size: 1.3rem;
             margin-bottom: 1rem;
-            color: #2c3e50;
+            color: #f8fafc;
+        }
+
+        .value-card p {
+            color: #cbd5e1;
         }
 
         /* Team */
@@ -638,27 +663,29 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
         }
 
         .team-member {
-            background: white;
+            background: #1e293b;
             border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
             transition: transform 0.3s ease;
             text-align: center;
+            border: 1px solid #334155;
         }
 
         .team-member:hover {
             transform: translateY(-10px);
+            border-color: #60a5fa;
         }
 
         .member-photo {
             width: 100%;
             height: 200px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #334155, #475569);
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 3rem;
-            color: white;
+            color: #60a5fa;
         }
 
         .member-info {
@@ -668,25 +695,30 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
         .member-name {
             font-size: 1.3rem;
             font-weight: bold;
-            color: #2c3e50;
+            color: #f8fafc;
             margin-bottom: 0.5rem;
         }
 
         .member-role {
-            color: #667eea;
+            color: #60a5fa;
             font-weight: 500;
             margin-bottom: 1rem;
         }
 
+        .member-info p {
+            color: #cbd5e1;
+        }
+
         /* Contact */
         .contact {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #1e293b, #334155);
             color: white;
             text-align: center;
+            border-bottom: 1px solid #334155;
         }
 
         .contact .section-title {
-            color: white;
+            color: #f8fafc;
         }
 
         .contact-info {
@@ -698,22 +730,35 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
 
         .contact-item {
             padding: 1.5rem;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(51, 65, 85, 0.5);
             border-radius: 10px;
             backdrop-filter: blur(10px);
+            border: 1px solid #475569;
+            transition: all 0.3s ease;
+        }
+
+        .contact-item:hover {
+            background: rgba(96, 165, 250, 0.1);
+            border-color: #60a5fa;
         }
 
         .contact-item h4 {
             margin-bottom: 0.5rem;
             font-size: 1.2rem;
+            color: #60a5fa;
+        }
+
+        .contact-item p {
+            color: #cbd5e1;
         }
 
         /* Footer */
         footer {
-            background: #2c3e50;
-            color: white;
+            background: #0f172a;
+            color: #94a3b8;
             text-align: center;
             padding: 2rem 0;
+            border-top: 1px solid #334155;
         }
 
         /* Responsive */
@@ -789,6 +834,24 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
         .values { animation-delay: 0.4s; }
         .team { animation-delay: 0.5s; }
         .contact { animation-delay: 0.6s; }
+
+        /* Dark theme scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #60a5fa;
+        }
     </style>
 
 
@@ -1039,10 +1102,10 @@ div[class="adsbygoogle"][id="ad-detector"] { display: block !important; }</style
 
             navLinks.forEach(link => {
                 link.style.background = '';
-                link.style.color = '#667eea';
+                link.style.color = '#60a5fa';
                 if (link.getAttribute('href') === `#${current}`) {
-                    link.style.background = '#667eea';
-                    link.style.color = 'white';
+                    link.style.background = '#60a5fa';
+                    link.style.color = '#0f172a';
                 }
             });
         });
